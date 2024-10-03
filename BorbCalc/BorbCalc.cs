@@ -19,52 +19,52 @@ namespace BorbCalc
 
         private void Btn1_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "1";
+            BorbsTotal.Text += "1";
         }
 
         private void Btn2_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "2";
+            BorbsTotal.Text += "2";
         }
 
         private void Btn3_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "3";
+            BorbsTotal.Text += "3";
         }
 
         private void Btn4_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "4";
+            BorbsTotal.Text += "4";
         }
 
         private void Btn5_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "5";
+            BorbsTotal.Text += "5";
         }
 
         private void Btn6_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "6";
+            BorbsTotal.Text += "6";
         }
 
         private void Btn7_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "7";
+            BorbsTotal.Text += "7";
         }
 
         private void Btn8_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "8";
+            BorbsTotal.Text += "8";
         }
 
         private void Btn9_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "9";
+            BorbsTotal.Text += "9";
         }
 
         private void Btn0_Click(object sender, System.EventArgs e)
         {
-            BorbsTotal.Text = BorbsTotal.Text + "0";
+            BorbsTotal.Text += "0";
         }
 
         private void BtnPlus_Click(object sender, System.EventArgs e)
@@ -130,9 +130,7 @@ namespace BorbCalc
         {
             string CaveFileText = "# CaveInfo\r\n{\r\n\t{c000} 4 1 \t# SublevelCount\r\n\t{_eof} \r\n}\r\n1 # FloorInfo\r\n{\r\n\t{f000} 4 0 # CurrentSublevelIndex\r\n\t{f001} 4 0 # CurrentSublevelIndex\r\n\t{f002} 4 1 # EntityTotal\r\n\t{f003} 4 0 # TreasureTotal\r\n\t{f004} 4 0 # GateTotal\r\n\t{f005} 4 1 # RoomTotal\r\n\t{f006} 4 0.2 # CorridorRatio\r\n\t{f007} 4 0 # Geyser\r\n\t{f008} -1 1_ABE_ari_metal.txt # UnitFile\r\n\t{f009} -1 normal_light_lv0.ini # LightFile\r\n\t{f00A} -1 none # Skybox\r\n\t{f010} 4 0 # CloggedHole\r\n\t{f011} 4 0 # Unknown\r\n\t{f012} 4 0 # MusicType\r\n\t{f013} 4 0 # SolidPlane\r\n    {f014} 4 50 # DeadEndTotal\r\n\t{f015} 4 1 # Version(0=IgnoreCapInfo)\r\n\t{f016} 4 0 # WaterwraithTimer\r\n\t{f017} 4 0 # Seesaw(1=True)\r\n\t{_eof} \r\n}\r\n# TekiInfo\r\n{\r\n\t1 # num\r\n\tChappy " + Result + "" + "0 # weight\r\n\t0 # type\r\n}\r\n# ItemInfo\r\n{\r\n\t0 # num\r\n}\r\n# GateInfo\r\n{\r\n\t0 # num\r\n}\r\n# CapInfo\r\n{\r\n\t0 # num\r\n}\r\n";
             File.WriteAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "urcave.txt"), CaveFileText);
-
-            DialogResult MsgBoxResult;
-            MsgBoxResult = MessageBox.Show("Cave saved in app directory.", "BorbCalc", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            _ = MessageBox.Show("Cave saved in app directory.", "BorbCalc", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void RickAstleyLabel_Click(object sender, EventArgs e)
