@@ -12,9 +12,9 @@ namespace BorbCalc
             InitializeComponent();
         }
 
-        int Num1;
-        int Num2;
-        string Option;
+        int Num1; // First inputted number
+        int Num2; // Second inputted number
+        string Option; // Math symbol
         int Result;
 
         private void Btn1_Click(object sender, System.EventArgs e)
