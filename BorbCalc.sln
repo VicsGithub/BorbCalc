@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BorbCalc", "BorbCalc\BorbCalc.csproj", "{33CF9F3B-6EBF-4DB2-820D-5D96FBFCBF30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33CF9F3B-6EBF-4DB2-820D-5D96FBFCBF30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33CF9F3B-6EBF-4DB2-820D-5D96FBFCBF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33CF9F3B-6EBF-4DB2-820D-5D96FBFCBF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33CF9F3B-6EBF-4DB2-820D-5D96FBFCBF30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24EE8C4E-66E6-4C8D-B7F0-956FC49A0C2D}
+	EndGlobalSection
+EndGlobal
